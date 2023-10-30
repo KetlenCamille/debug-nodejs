@@ -13,7 +13,7 @@ name: semantic-release
 jobs:
    release:
       name: Release
-      runs-on: []
+      runs-on: ["self-hosted"]
       steps:
          - name: Checkout
            uses: actions/checkout@v4
